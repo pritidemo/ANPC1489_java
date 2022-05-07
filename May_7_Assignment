@@ -3,3 +3,20 @@ Q2: WAP to accept two no from user and find out add, sub,mul,div,mod
 Q3: WAP to accept p,r,n from user and calculate SI
 Q4: WAP to accept R from user and calculate AC , CC
 Q5: WAP to accept l , b from user and calculate AR , PR
+
+---------------------
+import java.util.*;
+class demo
+{
+	public static void main(String args[])
+	{	
+		int num1,num2,res;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter first number");
+		num1=sc.nextInt();
+		System.out.println("Enter second number");
+		num2=sc.nextInt();
+		res=num1+num2;
+		System.out.println("The addition  is ="+res);
+	}
+}
