@@ -1,0 +1,141 @@
+Conditinal statment:
+
+If
+If else
+else if
+switch 
+nested
+
+
+If Conditional statment:
+
+
+Syntax:
+if(Condtion)
+{
+	Statment block;
+}
+
+WAP to accept a no from user if no is divible by 5 than find out the cube.
+
+If else conditional statment:
+
+Syntax:
+if(Condtion)
+{
+	Statment block;
+}
+else
+{
+	Statment block;
+}
+
+WAP to accept two no from user and find out the greatest.
+
+
+else if conditional statment:
+
+Syntax:
+
+if(condition)
+{
+	Ststment Block;
+}
+else if(condition)
+{
+	Statment block;
+}
+else
+{
+	Statment block;
+}
+
+WAP to accept a no from user and check it is positive or negative 
+
+6
+-5
+0
+
+
+Switch Conditional Statment:
+
+switch(Expression)
+{
+case 1:
+	Statment Block;
+break;
+case 2:
+	Statment Block;
+break;
+......
+......
+......
+default:
+Satment Block;
+break;
+}
+
+Nested Conditional Statment:
+
+
+WAP to accept the choice from from user and accordingly display the output
+1:Greater Between 2 No
+2:Profit and Loss
+3:Area of rectangle
+4:Even ODD
+
+
+
+
+---------------------
+
+
+
+
+
+
+
+
+
+
+WAP to accept sp and cp from the user and find out the result profit loss
+
+sp=100
+cp=300
+
+
+
+Loss:sp-cp
+     100-300
+     =-200
+
+
+
+//9 May Assignment
+
+
+//WAP to accept a no from user if no is even than display the square
+//WAP to accept a no from user and check is even or odd
+//WAP to accept a character from user and check it is vowel or not
+//WAP to accept two no and choice from user for arithmetic operation and display the out put
+EG:
+Enter First No:66
+Enter Second No: 89
+Enter your arithmetic operation(+,-,*,/,%): +
+//WAP to accept age and gender from user and display RI(m above 60:7%IR) (f above 60 : 7.5% IR)(Below  60 m, f 5%IR)
+EG:
+Enter your age: 6
+Enter your gender:f
+
+
+
+
+
+
+
+
+
+
+
+
+
