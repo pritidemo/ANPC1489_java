@@ -1,0 +1,136 @@
+Operator:
+
+2+4
+sizeof()
+++
+--
+-
+
+
+Binary
+
+Arithmetic 
+Assignment
+Bitwise
+Conditional
+Logical
+
+
++-*/%
+/=   9/8 = Q=1
+%=   4%2= R
+
+
+
+=
++=
+-=
+*=
+/=
+%=
+a=10
+
+
+a+=10
+a=a+10
+a=20
+
+a-=12
+a=a-12
+a=8
+a*=2
+a=16
+
+a%=3
+a=1
+
+<
+>
+<=
+>=
+==
+!=
+
+4>5
+4<4
+4<=4
+
+
+=
+==
+5==5
+5!=9
+
+&&
+||
+!
+
+&&
+FF=F
+TT=T
+TF=F
+FT=F
+
+||
+FF=F
+TT=T
+TF=T
+FT=T
+!
+T=F
+F=T
+
+Bitwise:
+-------
+&
+|
+^
+
+1,0
+&
+11=1
+10=0
+01=0
+00=0
+
+
+7^3=
+
+
+111=7
+011=3
+-----
+100=4
+
+
+^
+11=0
+00=0
+10=1
+01=1
+
+
+?:
+()?true:fals
+
+import java.util.Scanner;
+
+public class switch_demo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter Two No");
+		int num1,num2,res;
+		num1=sc.nextInt();
+		num2=sc.nextInt();
+		res=(num1>num2)?num1:num2 ;
+		System.out.println("The greater no is ="+res);
+	}
+
+}
+
+
+
+
