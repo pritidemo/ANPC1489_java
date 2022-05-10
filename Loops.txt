@@ -1,0 +1,242 @@
+Loops:
+Pre Tested:
+	for loop, while loop
+Post tested:
+	do while loop
+
+
+for:
+Syntax:
+
+for(initialization;condition;decision)
+{
+	Statment block;
+}
+
+1------895
+
+895----1
+
+for(i=100;i<=995;i++)
+{
+}
+
+
+Min, Max
+8-----75
+
+Write a program to accept starting point and ending point from the user and accordingly display the numbers.
+
+while Loop:
+syntax:
+
+while(Condition)
+{
+	Statment block;
+}
+
+
+for
+while 
+do while Loop:
+
+Syntax:
+
+do
+{
+Statment block;
+}
+while(condition);
+
+
+
+
+
+
+Person XYZ:
+
+Food corner
+
+               menu
+oredr           pre 
+food           Do you want to add any item
+y/n
+
+do
+{
+menu
+order
+pre
+food
+Do you to add any item
+
+}While(ans==y);
+
+same process while
+
+while(ans==y)
+{
+menu
+order
+pre
+food
+Do you to add any item
+}
+
+Starters
+1
+2
+3
+4
+Main course
+1
+2
+3
+4
+Desert
+1
+2
+3
+4
+
+------------------
+package Loops_Pack;
+
+import java.util.Scanner;
+
+public class For_Loop_demo {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int min,max;
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter the min Value");
+		min=sc.nextInt();
+		System.out.println("Enter the max Value");
+		max=sc.nextInt();
+		/*
+		for(i=min;i<=max;i++)
+		{
+			System.out.print(i+"\t");
+		}
+		*/
+		while(min<=max)
+		{
+			System.out.println(min+"\t");
+			min++;
+		}
+	}
+
+}
+
+----------------------
+package Loops_Pack;
+
+import java.util.Scanner;
+
+public class do_while_Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int choice;
+		char ans;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("\t ---Raj Food Corner---\t");
+		do
+		{
+			System.out.println("1:Samosa");
+			System.out.println("2:Idli");
+			System.out.println("3:Maggi");
+			System.out.println("4:Pizza");
+			choice=sc.nextInt();
+			System.out.println("Do you want to add any item Yes/No");
+			ans=sc.next().charAt(0);
+		}while(ans=='y'||ans=='Y');
+		System.out.println("Thanks for coming ");
+		
+	}
+
+}
+
+------------------------
+package Loops_Pack;
+
+import java.util.Scanner;
+
+public class Food_Order {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char ans;
+		int choice,ch1;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("\t\t----\tYagnesh Food Corner\t----\t\t");
+		do
+		{
+			System.out.println("1:Starters\n2:Main Course\n3:Desert");
+			choice=sc.nextInt();
+			switch(choice)
+			{
+			case 1:
+					System.out.println("Starters Items");
+					System.out.println("1:Item1 ");
+					System.out.println("2:Item2");
+					System.out.println("3:Item3");
+					System.out.println("4:Item4");
+					ch1=sc.nextInt();
+				break;
+			case 2:
+				System.out.println("Main Course Items");
+				System.out.println("1:Item1");
+				System.out.println("2:Item2");
+				System.out.println("3:Item3 ");
+				System.out.println("4:Item4");
+				ch1=sc.nextInt();
+				break;
+			case 3:
+				System.out.println(" Desert Items");
+				System.out.println("1:Item1");
+				System.out.println("2:Item2");
+				System.out.println("3:Item3 ");
+				System.out.println("4:Item4");
+				ch1=sc.nextInt();
+				break;
+			default:
+				System.out.println("Invalid Item");
+				break;
+			
+			}
+			System.out.println("Do you want to add another Item Yes/No");
+			ans=sc.next().charAt(0);
+			
+		}
+		while(ans=='y'||ans=='Y');
+		System.out.println("Thanks For coming");
+
+	}
+
+}
+-------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thursday LAb:
+----------------
+WAP to accept a no from user anf find out the factorial.(While Loop)
+
+
+
+
+
+
+
