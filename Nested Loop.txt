@@ -107,3 +107,8 @@ for(i=1;i<=5;i++)
   * * *
  * * * *
 * * * * *
+
+
+
+WAP to accept a no from the user and display the multiplication table 1*1=1
+WAP to display the no from 876 to 23
