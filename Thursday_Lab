@@ -1,3 +1,8 @@
-WAP to accept ano from user and find out the factorial.
-WAP to accept ano from user and check it is prime or not
-WAP to accept a no from user and check it is armstrong or not
+Q1)WAP to accept ano from user and find out the factorial.
+Q2)WAP to accept ano from user and check it is prime or not
+Q3)WAP to accept a no from user and check it is armstrong or not
+Q4)WAP to display prime no between 1 to 1000
+Q5)WAP to display armstrongno between 1 to 1000
+Q6)Write a program to accept a number from the user and then outputs the number with the digits reversed. For example, if the input is 12345, the output should be 54321.
+Q7)Write a program that reads a set of integers, and then prints the sum of the even and odd integers.
+Q8)Write a program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros entered.
