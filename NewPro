@@ -7,3 +7,6 @@ After spliting :
 9	8	81	1	78
 
 Q2)Write a program to find the sum and product of all elements of an array.
+Q3)Check if a given number is palindrome or not.
+A palindrome is a number which is when reversed give the same number. We find the reverse and check whether it is equal to the given number or not.
+Q4)Write a Java program to find second largest number from the array
