@@ -1,0 +1,113 @@
+import java.util.Scanner;
+
+public class Function_demo 
+{
+	int num1,num2,sum,res;
+	Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		Function_demo obj=new Function_demo();
+		//obj.sqr();
+		obj.add();
+		
+	}
+	public void hello_world()
+	{
+		System.out.println("This is the hellow world block ....");
+	}
+	public int add()
+	{
+		
+		System.out.println("Enter two numbers");
+		num1=sc.nextInt();
+		num2=sc.nextInt();
+		sum=num1+num2;
+
+		System.out.println("Add of two numbers is ="+sum);
+		return sum;
+	}
+	
+	public void sqr()
+	{
+		res=add();
+		System.out.println("The square is ="+ res*res);
+	}
+	
+	public void evenodd()
+	{
+		System.out.println("Enter a numbers");
+		num1=sc.nextInt();
+		if(num1%2==0)
+		{
+			System.out.println("It is even");
+		}
+		else
+		{
+			System.out.println("It is Odd");
+		}
+	}
+}
+----------------------------------------------
+
+import java.util.Scanner;
+
+public class Para_Fun 
+{
+	int res;
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		Para_Fun obj=new Para_Fun();
+		obj.accept();
+	
+	}
+	public void accept()
+	{
+		Scanner sc=new Scanner(System.in);
+		int num1,num2;
+		System.out.println("Enter two numbers");
+		num1=sc.nextInt();
+		num2=sc.nextInt();
+		add(num1,num2);
+		sub(num1,num2);
+		mul(num1,num2);
+		div(num1,num2);
+		mod(num1,num2);
+		
+	}
+	public void add(int a,int b)
+	{
+		res=a+b;
+		System.out.println("The add is ="+res);
+	}
+	public void sub(int a,int b)
+	{
+		res=a-b;
+		System.out.println("The sub is ="+res);
+	}
+	public void mul(int a,int b)
+	{
+		res=a*b;
+		System.out.println("The mul is ="+res);
+	}
+	public void div(int a,int b)
+	{
+		res=a/b;
+		System.out.println("The div is ="+res);
+	}
+	public void mod(int a,int b)
+	{
+		res=a%b;
+		System.out.println("The mod is ="+res);
+	}
+}
+
+
+------------------------------------------------------
+Write a function to accept two no from the user and do the process of swapping
+a)With third variable
+b)Without third variable
+
+
+
